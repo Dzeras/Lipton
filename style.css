@@ -191,6 +191,7 @@ body {
 
 .promo__step-title {
     text-align: center;
+    font-size: 32px;
 }
 
 .promo__step-text {
@@ -226,6 +227,7 @@ body {
     border: 1px solid #C80206;
     background: #C80206;
     color: #fff;
+    font-size: 32px;
     padding: 7.5px 9.5px;
     margin-bottom: 68px;
 }
@@ -288,6 +290,8 @@ body {
     justify-content: space-around;
     color: #fff;
     margin-bottom: 52px;
+
+    font-size: 32px;
 }
 
 .prize__cards {
@@ -316,6 +320,8 @@ body {
     text-align: center;
     margin-bottom: 55px;
     margin-top: 37px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .card__img-iphone {
