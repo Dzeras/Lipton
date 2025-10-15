@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000;
+    letter-spacing: 0.03em;
+    background-image: url(./images/bg.svg);
+    /* background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover; */
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    /* padding: 0 20px; */
+}
+
+.header__inner {
+    max-height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    /* transition: all 0.3s ease; */
+}
+
+.menu__list-item {
+    font-size: 15px;
+}
+
+.menu__list-item__btn {
+    padding: 11px;
+    border: 1px solid #C80206;
+    border-radius: 20px;
+    background: #C80206;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.menu__list-item__btn:hover {
+    background: none;
+    color: #C80206;
+}
+
+/** Top section **/
+
+.top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.top__left-flowers {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
+
+.promo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 37px;
+    position: relative;
+}
+
+.promo__birds {
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+
+.promo__content {
+    margin-right: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.promo__title {
+    font-size: 60px;
+    color: #548D55;
+}
+
+.promo__subtitle {
+    color: #548D55;
+    font-size: 96px;
+}
+
+.promo__prize {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    background: #F5E818;
+    color: #000;
+    padding: 3.5px 10px;
+}
+
+.promo__btn {
+    margin-top: 50px;
+    padding: 15.5px 36.5px;
+    color: #fff;
+    font-weight: 800;
+    background: #C80206;
+    border: 1px solid #C80206;
+    border-radius: 50px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.promo__btn:hover {
+    background: none;
+    color: #C80206;
+}
+
+.promo__right {
+    display: flex;
+}
+
+.bottle {
+    width: 147px;
+    height: 592px;
+    margin-right: -100px;
+    z-index: 2;
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.mountain {
+    z-index: 1;
+    margin-top: 40px;
+}
+
+.promo__steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 67px;
+    margin-top: 38px;
+    margin-bottom: 50px;
+}
+
+.promo__step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+    min-height: 175px;
+    gap: 9px;
+}
+
+.promo__step-number {
+    background: #FFE721;
+    border: 1px solid #9E7B05;
+    border-radius: 50%;
+    color: #C80206;
+    padding: 12.5px 24px;
+}
+
+.promo__step-title {
+    text-align: center;
+}
+
+.promo__step-text {
+    text-align: center;
+    font-size: 22px;
+}
+
+/** Quiz section **/
+
+.quiz {
+    max-width: 952px;
+    min-height: 435px;
+    background: url(./images/moun.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+    margin: 0 auto;
+    box-shadow: 0 4px 55.6px rgba(0, 0, 0, 0.25);
+    margin-bottom: 80px;
+    position: relative;
+    z-index: 2;
+}
+
+.quiz__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 57px;
+    padding-bottom: 54px;
+}
+
+.quiz__title {
+    border: 1px solid #C80206;
+    background: #C80206;
+    color: #fff;
+    padding: 7.5px 9.5px;
+    margin-bottom: 68px;
+}
+
+.quiz__text {
+    max-width: 481px;
+    text-align: center;
+}
+
+.quiz__btn {
+    margin-top: 54px;
+    background: #C80206;
+    border: 1px solid #C80206;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 800;
+    padding: 15.5px 39.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.quiz__btn:hover {
+    background: #fff;
+    color: #C80206;
+}
+
+.quiz__right-flower {
+    position: absolute;
+    right: 0;
+}
+
+.accent-bg {
+    background-image: url(./images/image.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1027px;
+    position: absolute;
+    margin-top: -250px;
+    z-index: 0;
+}
+
+.prizes {
+    position: relative;
+    margin: 0 auto;
+    z-index: 3;
+    max-width: 964px;
+}
+
+.prize {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prize__title {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    color: #fff;
+    margin-bottom: 52px;
+}
+
+.prize__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    width: 427px;
+    height: 556px;
+    border-radius: 15px;
+    background-image: url(./images/blueBg.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 46.3px rgba(0, 0, 0, 0.25);
+}
+
+.card__title {
+    text-align: center;
+    margin-bottom: 55px;
+    margin-top: 37px;
+}
+
+.card__img-iphone {
+    width: 206px;
+    height: 339px;
+    margin-bottom: 92px;
+}
+
+.card__img-tickets {
+    width: 365px;
+    height: 293px;
+    margin-bottom: 135px;
+}
+
+.products-section {
+    padding-top: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.products__birds {
+    position: absolute;
+    left: 150px;
+    top: 0;
+}
+
+.products__left-flowers {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.products__right-flowers {
+    position: absolute;
+    right: 0;
+    top: 62%;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 23px;
+    margin-bottom: 38px;
+}
+
+.product__card {
+    width: 373px;
+    height: 426px;
+    border: 5px solid rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    box-shadow: 0 4px 16.9px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__img.hodie {
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+
+.product__img.lag{
+    margin-bottom: 12px;
+    margin-top: 28px;
+}
+
+.product__title {
+    padding: 7.5px 16.5px;
+    background: #9DC138;
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+.sale {
+    width: 964px;
+    height: 302px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 58px;
+
+    border: 3px solid rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    box-shadow: 0 4px 16.9px rgba(0, 0, 0, 0.25);
+    margin-bottom: 37px;
+}
+
+.sale__text-title{
+    margin-bottom: 19px;
+}
+
+.sale__text-content {
+    max-width: 279px;
+    font-size: 22px;
+}
+
+.bottom__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.bottom__title {
+    font-size: 15px;
+}
+
+.footer {
+    background: #454543;
+    min-height: 136px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.footer__btn {
+    background: inherit;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    max-height: 37px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.footer__text {
+    max-width: 250px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.icons__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+
+    cursor: pointer;
+}
+
+.icons__item{
+    transition: all 0.3s ease;
+}
+
+.icons__item:hover{
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
