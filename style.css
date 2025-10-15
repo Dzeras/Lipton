@@ -133,6 +133,7 @@ body {
     padding: 15.5px 36.5px;
     color: #fff;
     font-weight: 800;
+    font-size: 32px;
     background: #C80206;
     border: 1px solid #C80206;
     border-radius: 50px;
@@ -241,6 +242,7 @@ body {
     border-radius: 50px;
     color: #fff;
     font-weight: 800;
+    font-size: 32px;
     padding: 15.5px 39.5px;
     cursor: pointer;
     transition: all 0.3s ease;
